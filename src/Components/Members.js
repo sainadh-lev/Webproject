@@ -14,15 +14,15 @@ function createData(Name, Cvlinks) {
 
 
 function openPdfFile() {
-    var URL = 'C:/Users/91868/Desktop/Webproject/intialphase/public/SAINADH JAMMIGUMPALA RESUME (1).pdf';
+    var URL = 'https://github.com/sainadh-lev/Webproject/blob/main/public/R1.pdf';
     window.open(URL);
 }
 
 const rows = [
-  createData("Sainadh Jammigumpala", "C:/Users/91868/Desktop/Webproject/intialphase/public/SAINADH JAMMIGUMPALA RESUME (1).pdf"),
-  createData("Shaik Rabnawaz", "C:/Users/91868/Desktop/Webproject/intialphase/public/SAINADH JAMMIGUMPALA RESUME (1).pdf"),
-  createData("Sanath Pagala", "C:/Users/91868/Desktop/Webproject/intialphase/public/SAINADH JAMMIGUMPALA RESUME (1).pdf"),
-  createData("Gopinath", "C:/Users/91868/Desktop/Webproject/intialphase/public/SAINADH JAMMIGUMPALA RESUME (1).pdf"),
+  createData("Sainadh Jammigumpala", "https://github.com/sainadh-lev/Webproject/blob/main/public/R1.pdf"),
+  createData("Shaik Rabnawaz", "https://github.com/sainadh-lev/Webproject/blob/main/public/R1.pdf"),
+  createData("Sanath Pagala", "https://github.com/sainadh-lev/Webproject/blob/main/public/R1.pdf"),
+  createData("Gopinath", "https://github.com/sainadh-lev/Webproject/blob/main/public/R1.pdf"),
 ];
 
 export default function Members() {
@@ -44,7 +44,7 @@ export default function Members() {
               <TableCell component="th" scope="row">
                 {row.Name}
               </TableCell>
-              <TableCell><object width="100%" height="200" data="C:/Users/91868/Desktop/Webproject/intialphase/public/SAINADH JAMMIGUMPALA RESUME (1).pdf" type="application/pdf">   </object></TableCell>
+              <TableCell><Button onClick={openPdfFile}>LINK</Button></TableCell>
             </TableRow>
           ))}
         </TableBody>
