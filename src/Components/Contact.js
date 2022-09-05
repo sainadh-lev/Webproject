@@ -19,7 +19,7 @@ const rows = [
 
 export default function Contacts() {
   return (
-    <TableContainer component={Paper} sx={{width:'90%', margin: 'auto',marginTop: '50px',marginBottom: "20px",overflow: 'hidden'}}>
+    <TableContainer component={Paper} sx={{width:'90%', margin: 'auto',marginTop: '5%'}}>
       <Table sx={{ minWidth: 650,textAlign: 'center' }} aria-label="simple table">
         <TableHead>
           <TableRow sx={{ backgroundColor: '#54BAB9' }}>

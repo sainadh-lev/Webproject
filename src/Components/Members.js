@@ -27,7 +27,7 @@ const rows = [
 
 export default function Members() {
   return (
-    <TableContainer component={Paper} sx={{ width:'50%', margin: 'auto',marginTop: '50px',marginBottom: "20px",overflow: 'hidden'}}>
+    <TableContainer component={Paper} sx={{ width:'55%', margin: 'auto',marginTop: '5%'}}>
       <Table sx={{ minWidth: 650 }} aria-label="simple table">
         <TableHead>
           <TableRow sx={{ backgroundColor: '#54BAB9' }}>
@@ -44,7 +44,10 @@ export default function Members() {
               <TableCell component="th" scope="row">
                 {row.Name}
               </TableCell>
-              <TableCell><Button onClick={openPdfFile}>LINK</Button></TableCell>
+              <TableCell>
+                <Button onClick={openPdfFile}>LINK</Button>
+                {/* <object width="100%" height="400" data="https://github.com/sainadh-lev/Webproject/blob/main/public/R1.pdf" type="application/pdf">   </object> */}
+              </TableCell>
             </TableRow>
           ))}
         </TableBody>
