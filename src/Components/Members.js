@@ -13,8 +13,9 @@ function createData(Name, Cvlinks) {
 }
 
 
-function openPdfFile() {
-    var URL = 'https://github.com/sainadh-lev/Webproject/blob/main/public/R1.pdf';
+function openPdfFile(e) {
+    var URL = e.target.value;
+    console.log(URL)
     window.open(URL);
 }
 
@@ -45,7 +46,7 @@ export default function Members() {
                 {row.Name}
               </TableCell>
               <TableCell>
-                <Button onClick={openPdfFile}>LINK</Button>
+                <Button value={row.Cvlinks} onClick={openPdfFile}>LINK</Button>
                 {/* <object width="100%" height="400" data="https://github.com/sainadh-lev/Webproject/blob/main/public/R1.pdf" type="application/pdf">   </object> */}
               </TableCell>
             </TableRow>

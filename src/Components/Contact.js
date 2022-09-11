@@ -12,9 +12,9 @@ function createData(Name,RollNo,PhoneNumber,Batch) {
 }
 const rows = [
   createData("Sainadh Jammigumpala", "B190347CS","868842903",'B'),
-  createData("Shaik Rabnawaz", "B190347CS","868842903",'A'),
-  createData("Sanath Pagala", "B190347CS","868842903",'B'),
-  createData("Gopinath", "B190347CS","868842903",'B'),
+  createData("Shaik Rabnawaz", "B190347CS","9581259086",'A'),
+  createData("Sanath Pagala", "B190347CS","8688570515",'B'),
+  createData("Gopinath", "B190347CS","8688599052",'B'),
 ];
 
 export default function Contacts() {

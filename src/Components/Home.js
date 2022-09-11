@@ -8,7 +8,7 @@ const Home = () => {
         <Container sx={{textAlign: 'left',fontSize: '150%',margin: 'auto',justify: 'center'}}>
             <h1>Budget Manager</h1>
             <p>Tracking and managing finances and expenses with a budget manager.</p>
-            <Button variant="outlined" href={link}>Learn More</Button>
+            <Button variant="outlined" href={link} target="_blank">Learn More</Button>
         </Container>
     )
 }
