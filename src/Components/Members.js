@@ -23,7 +23,7 @@ const rows = [
   createData("Sainadh Jammigumpala", "https://github.com/sainadh-lev/Webproject/blob/main/public/R1.pdf"),
   createData("Shaik Rabnawaz", "https://github.com/sainadh-lev/Webproject/blob/main/public/shaikresume.pdf"),
   createData("Sanath Pagala", "https://github.com/sainadh-lev/Webproject/blob/main/public/sanathresume.pdf"),
-  createData("Gopinath", "https://github.com/sainadh-lev/Webproject/blob/main/public/R1.pdf"),
+  createData("Gopinath", "https://github.com/sainadh-lev/Webproject/blob/main/public/Resume%CC%81.pdf"),
 ];
 
 export default function Members() {
