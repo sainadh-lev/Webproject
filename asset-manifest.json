@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.cd96c569.css",
-    "main.js": "/static/js/main.bf12a84c.js",
-    "static/media/R1.pdf": "/static/media/R1.da5aa980bbcf1592f28e.pdf",
-    "static/media/resume.pdf": "/static/media/resume.0c5f719582ba9ca3e01c.pdf",
-    "static/media/shaikresume.pdf": "/static/media/shaikresume.fb06413c1903849ad935.pdf",
-    "static/media/sanathresume.pdf": "/static/media/sanathresume.51fc50908b2d8100750b.pdf",
-    "index.html": "/index.html",
-    "main.cd96c569.css.map": "/static/css/main.cd96c569.css.map",
-    "main.bf12a84c.js.map": "/static/js/main.bf12a84c.js.map"
+    "main.css": "/Webproject/static/css/main.cd96c569.css",
+    "main.js": "/Webproject/static/js/main.b7e09de6.js",
+    "static/media/R1.pdf": "/Webproject/static/media/R1.da5aa980bbcf1592f28e.pdf",
+    "static/media/resume.pdf": "/Webproject/static/media/resume.0c5f719582ba9ca3e01c.pdf",
+    "static/media/shaikresume.pdf": "/Webproject/static/media/shaikresume.fb06413c1903849ad935.pdf",
+    "static/media/sanathresume.pdf": "/Webproject/static/media/sanathresume.51fc50908b2d8100750b.pdf",
+    "index.html": "/Webproject/index.html",
+    "main.cd96c569.css.map": "/Webproject/static/css/main.cd96c569.css.map",
+    "main.b7e09de6.js.map": "/Webproject/static/js/main.b7e09de6.js.map"
   },
   "entrypoints": [
     "static/css/main.cd96c569.css",
-    "static/js/main.bf12a84c.js"
+    "static/js/main.b7e09de6.js"
   ]
 }
